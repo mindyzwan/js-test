@@ -1,5 +1,5 @@
 const mob = {
-  canMakeTestPass: function () {
+  fizzBuzz: function () {
     return true;
   },
 };
