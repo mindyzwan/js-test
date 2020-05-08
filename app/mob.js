@@ -1,7 +1,7 @@
 const mob = {
-  canMakeTestPass: function() {
-    return false;
-  }
+  canMakeTestPass: function () {
+    return true;
+  },
 };
 
 module.exports = mob;
