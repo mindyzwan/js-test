@@ -2,9 +2,9 @@ var expect = require("chai").expect;
 var mob = require("../app/mob");
 
 describe("The mob", () => {
-  it("3 returns fizz", () => {
-    let expected = "fizz";
-    let actual = mob.fizzBuzz();
-    expect.equal;
+  it("non-multiple returns itself", () => {
+    let expected = 1;
+    let actual = mob.fizzBuzz(1);
+    expect(expected).to.equal(actual);
   });
 });

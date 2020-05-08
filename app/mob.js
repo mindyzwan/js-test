@@ -1,6 +1,6 @@
 const mob = {
   fizzBuzz: function () {
-    return true;
+    return 1;
   },
 };
 
