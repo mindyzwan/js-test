@@ -1,10 +1,13 @@
-var expect = require("chai").expect;
-var mob = require("../app/mob");
+var expect = require('chai').expect;
+var mob = require('../app/mob');
 
-describe("The mob", () => {
-  it("non-multiple returns itself", () => {
+describe('The mob', () => {
+  it('non-multiple returns itself', () => {
     let expected = 1;
     let actual = mob.fizzBuzz(1);
+    expect(expected).to.equal(actual);
+    expected = 2;
+    actual = mob.fizzBuzz(2);
     expect(expected).to.equal(actual);
   });
 });
